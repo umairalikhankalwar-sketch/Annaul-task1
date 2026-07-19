@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            font-family:Arial;
+            background:#eee;
+        }
+        form{
+            width:350px;
+            margin: 100px auto;
+            padding:20px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px red;
+        }
+        #pra{display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+
+        input{
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+            box-sizing:border-box;
+        }
+ select{
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+            box-sizing:border-box;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:blue;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+        button:hover{
+            background:darkblue;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <h2><i id="pra">Registration Form</i></h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <input type="number" placeholder="Age">
+
+    <select>
+         <option>Gender (Common) </option>
+        <option>Male</option>
+         <option>Female</option>
+         
+    </select>
+   <select>
+    
+    <option >None</option>
+    <option >Karachi</option>
+    <option >Ghotki</option>
+    <option >Lahoar</option>
+    <option >Multan</option>
+    <option >Hydrabad</option>
+    <option >Khuhara</option>
+    <option >Sukkur</option>
+    <option >Islamabad</option>
+</select>
+
+
+
+    <button>Submit</button>
+</form>
+
+</body>
+</html>
